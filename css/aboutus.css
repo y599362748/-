@@ -1,0 +1,228 @@
+/* 1rem=50px */
+html {
+  font-size: 50px;
+}
+/* 清除默认样式 */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  min-width: 375px;
+  margin-bottom: 1.12rem;
+}
+/* 设置上面的样式 */
+.container-up {
+  position: relative;
+  margin-top: 0.44rem;
+  text-align: center;
+  /* 里面title */
+  /* 副标题 */
+  /* 设置装图片的盒子*/
+  /* 设置下面文字 */
+}
+.container-up > div:first-child {
+  margin: 0 auto;
+  font-size: 0.36rem;
+  color: #333;
+  max-width: 1.651rem;
+  /* 文字超出使用... */
+  text-overflow: ellipsis;
+  /* 文字不换行 */
+  white-space: nowrap;
+  overflow: hidden;
+}
+.container-up > div:nth-child(2) {
+  max-width: 3.84rem;
+  height: 0.44rem;
+  box-sizing: border-box;
+  font-size: 0.2rem;
+  color: #aaa;
+  /* ======================xioa不想写注释============================== */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  /* 由于字体大小无法使用 */
+  /* padding: 0.15rem 1.42rem 0.12rem 1.41rem; */
+  border: 1px solid #d3d3d3;
+  margin-top: 0.12rem;
+  border-radius: 0.22rem 0 0.22rem 0;
+  position: relative;
+  margin-bottom: 0.39rem;
+  /* 设置遮挡的边框 */
+}
+.container-up > div:nth-child(2) > p {
+  max-width: 1.5rem;
+  max-height: 0.2rem;
+  line-height: 0.2rem;
+  /* 文字超出使用... */
+  text-overflow: ellipsis;
+  /* 文字不换行 */
+  white-space: nowrap;
+  overflow: hidden;
+}
+.container-up > div:nth-child(2) .container-up-border {
+  border-top: 3px solid #14916a;
+  width: 1.19rem;
+  position: absolute;
+  top: -2px;
+}
+/* ======================xioa不想写注释============================== */
+.container-up > div:nth-child(3) {
+  width: 7.5rem;
+  height: 2.93rem;
+  position: relative;
+  margin: 0 auto;
+  /* 图片 */
+  /* 设置图片上面的0.5遮罩 */
+}
+.container-up > div:nth-child(3) > img {
+  width: 100%;
+}
+/* ======================xioa不想写注释============================== */
+.container-up > div:nth-child(3) .shade {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.5);
+  top: 0;
+  left: 0;
+}
+/* ======================xioa不想写注释============================== */
+.container-up > div:nth-child(4) {
+  background-color: #f6f6f6;
+  margin: 0 auto;
+  width: 7.5rem;
+  line-height: 0.36rem;
+  font-size: 0.24rem;
+  text-align: left;
+  color: #000;
+  padding: 0.31rem 0.02rem 0.2rem 0.21rem;
+  box-sizing: border-box;
+  /* 设置段落间距 */
+  /* 设置顿号 */
+  /* 设置里面的按钮 */
+}
+.container-up > div:nth-child(4) > div {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}
+/* ======================xioa不想写注释============================== */
+.container-up > div:nth-child(4) > p:not(.container-not,.container-not-p3) {
+  margin-top: 0.36rem;
+}
+.container-up > div:nth-child(4) span {
+  letter-spacing: -2px;
+}
+/* ======================xioa不想写注释============================== */
+.container-up > div:nth-child(4) button {
+  margin-left: 5.3rem;
+  margin-top: 0.295rem;
+  border: none;
+  color: #fff;
+  font-size: 0.28rem;
+  background-color: #14916a;
+  width: 1.72rem;
+  height: 0.6rem;
+  border-radius: 0.3rem 0 0.3rem 0;
+  /* 文字不换行 */
+  white-space: nowrap;
+  overflow: hidden;
+  /* 文字超出使用... */
+  text-overflow: ellipsis;
+}
+.container-btn-text{
+  padding: 0 0.3rem;
+  width: 1.12rem;
+  /* 文字不换行 */
+  white-space: nowrap;
+  overflow: hidden;
+  /* 文字超出使用... */
+  text-overflow: ellipsis;
+}
+.container-not-p3{
+  margin-top: 0.37rem;
+}
+.container-up > div:nth-child(4) button:active {
+  background-color: #073829;
+}
+/* 设置下边不一样的数据 */
+.container-down {
+  margin-top: 0.46rem;
+  /* 副标题 */
+  /* 设置地4个div */
+}
+.container-down > div:nth-child(2) {
+  margin-bottom: 0.36rem;
+}
+.container-down > div:nth-child(2) > p {
+  max-width: 1.65rem;
+}
+.aboutus-bottom{
+  height: 404rem;
+}
+/* ======================xioa不想写注释============================== */
+.container-down .container-carousel {
+  position: relative;
+  /* 轮播图总体样式 */
+  font-size: 0;
+}
+.container-down .container-carousel > img {
+  width: 100%;
+}
+/* ======================xioa不想写注释============================== */
+.container-down .container-carousel > div {
+  box-sizing: border-box;
+  position: absolute;
+  width: 0.42rem;
+  height: 0.42rem;
+  border-radius: 50%;
+  background-color: rgba(20, 145, 106, 0.8);
+  top: 1.23rem;
+  left: 0.2rem;
+  padding: 0.09rem 0;
+  /* 里面箭头样式 */
+}
+.container-down .container-carousel > div > img {
+  position: absolute;
+  width: 0.13rem;
+  height: 0.22rem;
+  margin-left: -0.06rem;
+}
+/* ======================xioa不想写注释============================== */
+.container-down .container-carousel > div:last-child {
+  left: 6.87rem;
+}
+.container-down .container-text {
+  display: flex;
+  background-color: #fff;
+  padding: 0.15rem 0.22rem 0.6rem 0.21rem;
+  justify-content: space-between;
+  align-items: baseline;
+  /* 设置最后一个 */
+}
+.container-down .container-text > div:first-child {
+  font-size: 0.28rem;
+  color: #000;
+  width: 1.68rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/* ======================xioa不想写注释============================== */
+.container-down .container-text > div:last-child {
+  font-size: 0.2rem;
+  color: #666;
+  overflow: hidden;
+  width: 2.1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

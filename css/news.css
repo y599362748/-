@@ -1,0 +1,182 @@
+*{
+    margin: 0;padding: 0; list-style: none;
+    word-break: break-all;
+}
+html{
+    font-size: 50px;
+}
+/* 字体截断 */
+body{
+    font-size: 0.16rem;
+}
+.news{
+    min-width: 375px;
+}
+/* 标题 */
+.news-title{
+    margin-top: 0.44rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+/* 标题 */
+.news-title-p{
+    width: 3.86rem;
+    text-align: center;
+    font-size: 0.36rem;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+/* 副标题 */
+.news-title-bor{
+    margin-top: 0.12rem;
+    border: 1px solid #d3d3d3;
+    width:3.86rem;
+    height: 0.42rem;
+    border-radius: 0.22rem 0 0.22rem 0;
+    font-size: 0.21rem;
+    color: #aaaaaa;
+    /* =============== */
+    text-align: center;
+    line-height: 0.44rem;
+    position: relative;
+}
+/* 副标题文字 */
+.news-title-bor p{
+    margin: auto;
+    width: 2rem;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+/* 边框上的线 */
+.news-title-line{
+    width: 1.19rem;
+    height: 3px;
+    background-color: #14916a;
+    position: absolute;
+    left: 1.35rem;
+    top: -2px;
+}
+/* 列表 */
+.news-list{
+    box-sizing:border-box; 
+    margin-top: 0.39rem;
+}
+/* 列表 */
+.news-list li{
+    list-style: none;
+    width:100%;
+    height: 1.46rem;
+    border-bottom: 1px solid gainsboro;
+}
+.news-list li:nth-child(n+2){
+    margin-top: 0.2rem;
+}
+/* 列表点击效果 */
+.news-list li:active{
+    background-color: #f1efef4e;
+}
+.news-content{
+    display: flex;
+    width: 100%;
+}
+/* 新闻图片 */
+.news-content-img{
+    width: 2.8rem;
+    height: 1.26rem;
+    overflow: hidden;
+}
+/* 图片 */
+.news-content img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+/*文本 */
+.news-text{
+    justify-content: space-between;
+    width: 100%;
+    height: 1.26rem;
+    margin-left: 0.26rem;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+/* 新闻标题 */
+.news-text-title{
+    width: 100%;
+    padding-right: 0.3rem;
+    box-sizing: border-box;
+    font-size: 0.28rem;
+    overflow: hidden;
+    /* 多行隐藏 */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+/* 新闻时间 */
+.news-time{
+    display: flex;
+    margin-top: 0.23rem;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+/* === */
+.news-time p{
+    float: left;
+    font-size: 0.2rem;
+    color:#999999 ; 
+}
+/* 溢出隐藏 */
+.overhidden{
+    white-space: nowrap;
+    max-width: 1.7rem;
+    overflow: hidden;
+}
+/* 间隔 */
+.news-time p:nth-child(n+2){
+    margin-left: 0.15rem;
+}
+.news-time p:last-child{
+    width: 1.6rem;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+/* box */
+.news-box{
+    width: 100%;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+}
+/* 翻页按钮 */
+.news-btn{
+    display: flex;
+    justify-content: space-between;
+}
+/* 按钮 */
+.news-btn button{
+    background-color: #14916a;
+    color: white;
+    width: 1.73rem;
+    height: 0.6rem;
+    font-size: 0.28rem;
+    border-radius: 0.27rem 0 0.27rem 0;
+    margin-top: 0.34rem;
+    border: none;
+    /* 隐藏 */
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    margin-bottom: 0.34rem;
+}
+/* 按钮点击效果 */
+.news-btn button:active{
+    background-color: #149169d2;
+}

@@ -1,0 +1,326 @@
+/* 1rem=50px */
+html {
+  font-size: 50px;
+}
+/* 清除默认样式 */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+/* 定义最小宽 */
+.container {
+  min-width: 375px;
+}
+.container-up {
+  margin-top: 0.44rem;
+  text-align: center;
+  /* 里面title */
+  /* 副标题 */
+  /* 设置中间的背景 */
+  /* 设置联系文字 */
+  /*  标题*/
+  /* 表单样式 */
+  /* 按钮样式 */
+}
+.container-up > div:first-child {
+  font-size: 0.36rem;
+  color: #333;
+}
+.container-up > div:first-child > p {
+  margin: 0 auto;
+  max-width: 1.8rem;
+  /* 文字超出使用... */
+  text-overflow: ellipsis;
+  /* 文字不换行 */
+  white-space: nowrap;
+  overflow: hidden;
+}
+/* ======================Xioa不想写注释========================= */
+.container-up > div:nth-child(2) {
+  max-width: 3.84rem;
+  height: 0.44rem;
+  box-sizing: border-box;
+  font-size: 0.2rem;
+  color: #aaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  /* 由于字体大小无法使用 */
+  /* padding: 0.15rem 1.29rem 0.12rem 1.28rem; */
+  border: 1px solid #d3d3d3;
+  margin-top: 0.12rem;
+  border-radius: 0.22rem 0 0.22rem 0;
+  position: relative;
+  margin-bottom: 0.39rem;
+  /* 设置遮挡的边框 */
+}
+.container-up > div:nth-child(2) > p {
+  max-width: 1.75rem;
+  max-height: 0.2rem;
+  line-height: 0.2rem;
+  /* 文字超出使用... */
+  text-overflow: ellipsis;
+  /* 文字不换行 */
+  white-space: nowrap;
+  overflow: hidden;
+}
+.container-up > div:nth-child(2) .container-up-border {
+  border-top: 3px solid #14916a;
+  width: 1.19rem;
+  position: absolute;
+  top: -2px;
+}
+/* ======================Xioa不想写注释========================= */
+.container-up > div:nth-child(3) {
+  display: flex;
+  background-color: rgba(20, 145, 106, 0.7);
+  padding: 0.5rem 1.27rem 0.3rem 1.25rem;
+  height: 1.49rem;
+  justify-content: center;
+  /* 设置下面二维码的样式 */
+  /* 设置文字的样式 */
+}
+/* ======================Xioa不想写注释========================= */
+.container-up > div:nth-child(3) > div:nth-child(1) {
+  padding: 0.07rem;
+  height: 1.21rem;
+  background-color: #fff;
+  margin-right: 0.48rem;
+  border-radius: 4px;
+}
+.container-up > div:nth-child(3) > div:nth-child(1) > img {
+  width: 1.21rem;
+}
+/* ======================Xioa不想写注释========================= */
+.container-up > div:nth-child(3) > div:nth-child(2) {
+  font-size: 0.36rem;
+  color: #f6f6f6;
+  position: relative;
+  padding-top: 0.16rem;
+  /* 设置边框样式 */
+  /* 设置边框样式 */
+  /* 设置链接下面文字 */
+}
+.container-up > div:nth-child(3) > div:nth-child(2) p {
+  max-width: 2.15rem;
+  margin-left: 0.39rem;
+  /* 文字不换行 */
+  white-space: nowrap;
+  overflow: hidden;
+}
+/* ======================Xioa不想写注释========================= */
+.container-up > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) {
+  position: absolute;
+  width: 0.26rem;
+  height: 0.02rem;
+  background-color: #f6f6f6;
+  top: 0.42rem;
+}
+/* ======================Xioa不想写注释========================= */
+.container-up > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) {
+  position: absolute;
+  width: 0.26rem;
+  height: 0.02rem;
+  background-color: #f6f6f6;
+  top: 0.41rem;
+  left: 2.67rem;
+}
+/* ======================Xioa不想写注释========================= */
+.container-up > div:nth-child(3) > div:nth-child(2) > div:nth-child(4) {
+  font-size: 0.24rem;
+  color: #333;
+  margin-top: 0.11rem;
+  margin-left: -0.04rem;
+  display: flex;
+  align-items: center;
+}
+/* ======================Xioa不想写注释========================= */
+.container-up > div:nth-child(3) > div:nth-child(2) > div:nth-child(4) a {
+  color: #f6f6f6;
+}
+/* ======================Xioa不想写注释========================= */
+.container-up > div:nth-child(4) {
+  background-color: #f6f6f6;
+  font-size: 0.24rem;
+  color: #333;
+  text-align: left;
+  padding: 0.315rem 1rem 0.27rem 0.24rem;
+  line-height: 0.48rem;
+  /* 最下面时间样式 */
+}
+.container-up > div:nth-child(4) span {
+  letter-spacing: 1px;
+}
+.container-up > div:nth-child(4) .time {
+  letter-spacing: -0.5px;
+}
+/* ======================Xioa不想写注释========================= */
+.container-up > div:nth-child(5) {
+  font-size: 0.36rem;
+  color: #333;
+  padding-top: 0.58rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 设置边框样式 */
+  /* 边框样式 */
+}
+/* ======================Xioa不想写注释========================= */
+.container-up > div:nth-child(5) p {
+  max-width: 3.1rem;
+  margin: 0 0.17rem;
+  /* 文字超出使用... */
+  text-overflow: ellipsis;
+  /* 文字不换行 */
+  white-space: nowrap;
+  overflow: hidden;
+}
+.container-up > div:nth-child(5) > div:nth-child(1) {
+  width: 0.42rem;
+  height: 0.02rem;
+  background-color: #333;
+}
+/* ======================Xioa不想写注释========================= */
+.container-up > div:nth-child(5) > div:nth-child(3) {
+  width: 0.42rem;
+  height: 0.02rem;
+  background-color: #333;
+}
+.container-up form {
+  padding: 0.26rem 0.26rem 0rem 0.3rem;
+  display: flex;
+  justify-content: center;
+  /* 文字隐藏 */
+  /* 必填选项* */
+  /* 输入框样式 */
+  /* 下拉框 */
+}
+.container-up form table {
+  font-size: 0.24rem;
+  color: #333;
+}
+.container-up form th {
+  max-width: 1.06rem;
+  /* 文字超出使用... */
+  /* text-overflow: ellipsis; */
+  /* 文字不换行 */
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: normal;
+}
+.container-up form span {
+  color: #f00;
+}
+/* ======================Xioa不想写注释========================= */
+.container-up form input {
+  font-size: 0.24rem;
+  width: 5.3rem;
+  height: 0.68rem;
+  margin-top: 0.12rem;
+  margin-bottom: 0.12rem;
+  margin-left: 0.36rem;
+  text-indent: 1em;
+  border: 1px solid #999;
+}
+/* ======================Xioa不想写注释========================= */
+.container-up form input::-webkit-input-placeholder{
+  color: #aaa;
+}
+.container-up form select {
+  font-size: 0.24rem;
+  width: 5.3rem;
+  height: 0.7rem;
+  margin-left: 0.36rem;
+  text-indent: 0.6em;
+  margin-top: 0.12rem;
+  /* ======================Xioa不想写注释========================= */
+  margin-bottom: 0.12rem;
+  color: #aaa;
+  border: 1px solid #999;
+  /* 去除下拉框三角 */
+  appearance: none;
+}
+.container-up form .container-triangle {
+  position: relative;
+  /* 小三角 */
+}
+.container-up form .container-triangle::before {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 0.4rem;
+  right: 0.17rem;
+  border-top: 0.16rem solid #5c5c5c;
+  border-right: 0.15rem solid transparent;
+  border-bottom: 0.16rem solid transparent;
+  border-left: 0.15rem solid transparent;
+  /* 击穿样式 */
+  pointer-events: none;
+  z-index: 1;
+}
+/* ======================Xioa不想写注释========================= */
+.container-up button {
+  margin-top: 0.38rem;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 0.24rem;
+  background-color: #333;
+  padding: 0.149rem 0.89rem 0.15rem 0.88rem;
+  border-radius: 0.6rem;
+  margin-left: 0.08rem;
+  border: none;
+  /* 按钮点击 */
+}
+.container-up button:active {
+  background-color: #14916a;
+}
+/* 地图样式 */
+.container-up #container {
+  margin-top: 0.66rem;
+  height: 5.24rem;
+}
+/* 地图小图标 */
+.amap-icon img {
+  height: 34px;
+  width: 26px;
+  text-align: center;
+}
+/* ======================Xioa不想写注释========================= */
+.amap-marker-label {
+  border: 0;
+  background-color: transparent;
+}
+/*  */
+.info {
+  position: relative;
+  margin: 0;
+  top: 0;
+  right: 0;
+  min-width: 0;
+}
+/* ======================Xioa不想写注释========================= */
+.contactus-qq{
+  margin-left: 0.01rem;
+}
+.qr-add{
+  width: 0.48rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/* ======================Xioa不想写注释========================= */
+.qr-a{
+  margin-left: 0.02rem;
+  width: 0.72rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/* ======================Xioa不想写注释========================= */
+.qr-wechat{
+  width: 0.96rem;
+  margin-left: 0.02rem;
+  white-space: nowrap;
+  overflow: hidden;
+}

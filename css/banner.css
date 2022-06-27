@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    word-break: break-all;
+}
+/* 全局 */
+a{
+    -webkit-tap-highlight-color: transparent;
+}
+.overflow{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}/* 全局隐藏class */
+html{
+    font-size: 50px;
+}
+body{
+    font-size: 0.16rem;
+}
+.nav-logo{
+    padding:0.18rem 0.22rem 0rem;
+    box-sizing: border-box;
+}/* 导航logo */
+.nav-logo-pic{
+    width: 1.77rem;
+    height: 0.55rem;
+}/* logo图片 */
+nav{
+    background-color: rgba(246, 246, 246, 0.7);
+    width: 100%;
+    position: fixed;
+    display: flex;
+    height: 0.9rem;
+    z-index: 100;
+}/* 导航 */
+.menu-logo{
+    width: 0.38rem;
+    height: 0.27rem;
+}
+.menu{
+    padding:0.33rem 0.39rem 0.3rem;
+    margin-left: auto;
+    position: relative;
+}/* 菜单 */
+.menu:hover .menu-bg{
+    display: block;
+}/* 菜单hover */
+.menu-bg{
+    position: absolute;
+    background-color:rgba(0, 0, 0, .7);
+    width: 3.47rem;
+    height: 135vh;
+    right: 0px;
+    top: 0px;
+    display: none;
+    z-index: 1;
+}/* 菜单背景 */
+.close{
+    padding:0.27rem 0.39rem 0.36rem 2.7rem;
+}
+.menu-close{
+    width: 0.38rem;
+    height: 0.38rem;
+}/* 菜单的ul */
+.menu-ul{
+    padding: 0.11rem 0.34rem 0rem 0.39rem;
+    margin-top: -0.147rem;
+    height: 75vh;
+    overflow-y: auto;
+}
+/* *********************** */
+.menu-li{
+    padding: 0.08rem 0rem 0.08rem 0.42rem;
+    margin-top: 0.40rem;
+    border-top-left-radius: 0.42rem;
+    border-bottom-right-radius: 0.42rem;
+    height: 0.56rem;
+    box-sizing: border-box;
+}
+/* *********************** */
+.menu-li div{
+    max-width: 1.5rem;
+}
+.menu-li a{
+    color: white;
+    font-size: 0.28rem;
+}
+/* *********************** */
+.menu-li:active{
+    background-color: white;
+}
+/* *********************** */
+.menu-li:active a{
+    color: #14916a;
+}
+.chose-li{
+    background-color: white;
+}
+.chose-li a{
+    color: #14916a;
+}
+/* *********************** */
+.banner-pic{
+    width: 100%;
+}

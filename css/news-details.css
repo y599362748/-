@@ -1,0 +1,214 @@
+*{margin: 0;padding: 0;list-style: none; word-break: break-all;}
+html{
+    font-size: 50px;
+}
+/* 字体阻断 */
+body{
+    font-size: 0.16rem;
+}
+/* 占位图片 */
+header img{
+    width: 100%;
+    font-size: 0px;
+}
+/* 主容器 */
+.main-content{
+    width: 100%;
+    box-sizing: border-box;
+    min-width: 375px;
+}
+/* 主体顶部 */
+.main-content-top{
+    padding: 0 0.2rem;
+    margin-top: 0.50rem;
+    text-align: center;
+    margin-bottom: 0.42rem;
+}
+/* 顶部标题 */
+.main-content-top-title{
+    font-size: 0.36rem;
+    line-height: 0.36rem;
+    color: #333;
+    padding-bottom: 0.16rem;
+    margin: 0 auto;
+    max-width: 3.50rem;
+    text-align: center;
+    /* 不允许换行和超出隐藏 */
+    white-space: nowrap;
+    overflow: hidden;
+    /* 隐藏部分省略号 */
+    text-overflow: ellipsis;
+}
+/* 副标题 */
+.main-content-top-subtitle{
+    display: flex;
+    margin: 0 auto;
+    height: 0.42rem;
+    width: 3.86rem;
+    border: 1px solid #d3d3d3;
+    /* 居中 */
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    font-size: 0.2rem;
+    border-top-left-radius: 0.22rem;
+    border-bottom-right-radius: 0.22rem;
+    /* 定位 */
+    position: relative;
+    z-index: -1;
+}
+/* 文本 */
+.mcts-text{
+    max-width: 2rem;
+    line-height: 0.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* 绿线 */
+.mcts-greenline{
+    width: 1.19rem;
+    height: 3px;
+    background-color: #14916a;
+    /* 定位 */
+    position: absolute;
+    top: -2px;
+    z-index: -1;
+}
+/* 详情题目部分 */
+.main-content-detail-title{
+    background-color: #fafafa;
+    border: 1px solid #eee;
+    padding: 0 0.2rem;
+}
+/* 题目 */
+.mcd-title{
+    margin-top: 0.23rem;
+    font-size: 0.36rem;
+    line-height: 0.36rem;
+    margin-bottom: 0.22rem;
+    font-weight: bold;
+    color: #333;
+    width: 94%;
+    line-height: 0.5rem;
+}
+/* 副标题 */
+.mcd-subtitle{
+    display: flex;
+    margin-bottom: 0.24rem;
+}
+/* 发布日期 */
+.mcds-date{
+    color: #333;
+    font-size: 0.2rem;
+    width: 2.69rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.mcds-date span{
+    color: #14916a;
+}
+/* 浏览数 */
+.mcds-num{
+    color: #333;
+    margin-left: 0.26rem;
+    font-size: 0.2rem;
+    max-width: 1.56rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* 绿色部分 */
+.mcds-num span{
+    color: #14916a;
+}
+/* 简介 */
+.main-content-detail-dic{
+    margin-top: 0.23rem;
+    color: #999;
+    font-size: 0.24rem;
+    padding: 0 0.2rem;
+    width: 89%;
+    line-height: 0.36rem;
+    /* 两端对齐 */
+    text-align: justify;
+}
+/* 正文 */
+.main-content-detail-text{
+    margin-top: 0.25rem;
+    padding: 0 0.2rem;
+    font-size: 0.24rem;
+    line-height: 0.36rem;
+    color: #333;
+    letter-spacing: 0.2px;
+    /* 两端对齐 */
+    text-align: justify;
+    margin-bottom: 0.29rem;
+}
+/* 图片 */
+.main-content-detail-img{
+    margin: 0 auto;
+    width: 7.06rem;
+    height: 4.68rem;
+}
+.main-content-detail-img img{
+    width: 100%;
+}
+/* 文本2 */
+.main-content-detail-text2{
+    margin-top: 0.29rem;
+    padding: 0 0.2rem;
+    font-size: 0.24rem;
+    line-height: 0.36rem;
+    color: #333;
+    letter-spacing: 0.3px;
+    /* 两端对齐 */
+    text-align: justify;
+    margin-bottom: 0.74rem;
+}
+/* 按钮 */
+.main-content-detail-btn{
+    padding: 0 0.2rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 0.71rem;
+}
+/* 绿色按钮 */
+.mcdb-green{
+    width: 100%;
+    background-color: #14916a;
+    height: 0.6rem;
+    border-top-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    color: #fff;
+    /* 弹性垂直居中 */
+    display: flex;
+    align-items: center;
+    font-size: 0.28rem;
+    margin-bottom: 0.6rem;
+}
+/* 按钮前端 */
+.mcdb-title{
+    margin-left: 0.38rem;
+    margin-right: 0.16rem;
+}
+/* 透明的线 */
+.mcdb-line{
+    width: 1px;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0.3;
+    margin-right: 0.17rem;
+}
+/* 按钮后面会搜索 */
+.mcdb-text{
+    flex-grow: 1;
+    max-width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* 点击效果 */
+.mcdb-green:active{
+    opacity: 0.8;
+}

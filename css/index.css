@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html{
+    font-size: 50px;
+}
+/* 字体截断 */
+body{
+    font-size: 0.16rem;
+}
+.main-content{
+    width: 100%;
+    box-sizing: border-box;
+    min-width: 375px;
+}
+/* 主体顶部 */
+.main-content-top{
+    padding: 0 0.2rem;
+    margin-top: 0.44rem;
+    text-align: center;
+    margin-bottom: 0.37rem;
+}
+/* 顶部标题 */
+.main-content-top-title{
+    font-size: 0.36rem;
+    line-height: 0.36rem;
+    color: #333;
+    padding-bottom: 0.19rem;
+    margin: 0 auto;
+    max-width: 3.50rem;
+    text-align: center;
+    /* 不允许换行和超出隐藏 */
+    white-space: nowrap;
+    overflow: hidden;
+    /* 隐藏部分省略号 */
+    text-overflow: ellipsis;
+}
+/* 副标题 */
+.main-content-top-subtitle{
+    display: flex;
+    margin: 0 auto;
+    height: 0.42rem;
+    width: 3.86rem;
+    border: 1px solid #d3d3d3;
+    /* 居中 */
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    font-size: 0.2rem;
+    border-top-left-radius: 0.22rem;
+    border-bottom-right-radius: 0.22rem;
+    /* 定位 */
+    position: relative;
+    z-index: -1;
+}
+/* 文本 */
+.mcts-text{
+    max-width: 3.32rem;
+    line-height: 0.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* 绿线 */
+.mcts-greenline{
+    width: 1.19rem;
+    height: 3px;
+    background-color: #14916a;
+    /* 定位 */
+    position: absolute;
+    top: -2px;
+    z-index: -1;
+}
+/* 公司简介 */
+.main-content-index-dic{
+    padding: 0 0.2rem;
+    font-size: 0.24rem;
+    width: 100%;
+    box-sizing: border-box;
+    color: #333;
+    line-height: 0.34rem;
+    /* 多行文本隐藏方法 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    /* 最多显示行数 */
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    text-align: justify;
+}
+/* 联系我们 */
+.main-conten-index-contactus{
+    padding: 0 0.2rem;
+    width: 100%;
+    box-sizing: border-box;
+    height: 1.91rem;
+    margin-top: 0.24rem;
+    display: flex;
+}
+/* 图片容器 */
+.mcic-img{
+    width: 2.87rem;
+    height: 1.91rem;
+}
+/* 图片 */
+.mcic-img img{
+    width: 100%;
+}
+/* 右侧方式 */
+.mcic-tel{
+    margin-left: 1px;
+    display: flex;
+    flex-grow: 1;
+    width: 59.6%;
+    padding: 0.20rem 0.29rem 0.24rem 0.23rem;
+    box-sizing: border-box;
+    background-color: #14916a;
+    flex-direction: column;
+}
+/* 电话 */
+.mci-tel-num{
+    color: #fff;
+    font-size: 0.33rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+}
+/* ===========================Shix不想写注释========================== */
+.mci-tel-num span{
+    max-width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* 电话图片 */
+.mci-tel-num img{
+    width: 0.3rem;
+    height: 0.3rem;
+    margin-right: 0.24rem;
+}
+/* 按钮容器 */
+.mci-tel-btn{
+    display: flex;
+    justify-content: end;
+    margin-top: 0.12rem;
+}
+/* 按钮 */
+.mci-tel-btn-a{
+    width: 1.74rem;
+    height: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    /* 圆角 */
+    border-top-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    font-size: 0.24rem;
+    color: #14916a;
+    background-color: #fff;
+    /* 去除a标签点击出现蓝框 */
+    -webkit-tap-highlight-color: transparent;
+}
+/* 字体设置溢出隐藏 */
+.mci-tel-btn-a span{
+    max-width: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* 点击效果 */
+.mci-tel-btn-a:active{
+    opacity: 0.99;
+}
+/* 下面标题间距 */
+.main-content-top-margin{
+    margin-top: 0.60rem;
+}
+/* 副标题宽 */
+.mcts-width{
+    width: 5.36rem;
+    margin-bottom: 0.42rem;
+}
+/* 副标题文本最大宽 */
+.mcts-text-width{
+    font-size: 0.24rem;
+    max-width: 4.6rem;
+}
+/* ===========================Shix不想写注释========================== */
+.main-content-bottom-img{
+    padding: 0 0.2rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 0.2rem;
+}
+/* ===========================Shix不想写注释========================== */
+/* ===========================Shix不想写注释========================== */
+.mcbi-content{
+    display: flex;
+}
+/* ===========================Shix不想写注释========================== */
+.mcbi-content-top{
+    display: flex;
+    margin: 0 auto;
+}
+/* ===========================Shix不想写注释========================== */
+.mcbict-left{
+    display: flex;
+    width: 3.45rem;
+    height: 2.34rem;
+    background-image: url("../img/index-main-img1.png");
+    /* ===========================Shix不想写注释========================== */
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+/* ===========================Shix不想写注释========================== */
+.mcbict-right{
+    margin-left: 0.2rem;
+    display: flex;
+    width: 3.45rem;
+    height: 2.34rem;
+    background-image: url("../img/index-main-img2.png");
+    /* ===========================Shix不想写注释========================== */
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+/* ===========================Shix不想写注释========================== */
+.mcbict-bottom-img3{
+    background-image: url("../img/index-main-img3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* ===========================Shix不想写注释========================== */
+.mcbict-bottom-img4{
+    background-image: url("../img/index-main-img4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* ===========================Shix不想写注释========================== */
+.mcbict-left-text{
+    width: 1.65rem;
+    height: 0.87rem;
+    background-color: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    padding-left: 0.50rem;
+    /* ===========================Shix不想写注释========================== */
+    display: flex;
+    align-items: center;
+    font-size: 0.36rem;
+    color: #fff;
+}
+/* ===========================Shix不想写注释========================== */
+.main-bottom-margin{
+    margin-bottom: 0.48rem;
+}
+.mcbict-left-text span{
+    max-width: 0.72rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+/* ===========================Shix不想写注释========================== */

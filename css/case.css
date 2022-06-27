@@ -1,0 +1,150 @@
+*{
+    margin: 0;padding: 0;
+}
+html{
+    font-size: 50px;
+}
+body{
+    font-size: 0.16rem;
+}
+/* 标题 */
+.case-title{
+    margin-top: 0.43rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* ================al不想写注释============== */
+.case-title-p{
+    width: 3.86rem;
+    text-align: center;
+    font-size: 0.36rem;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+/* 副标题 */
+.case-title-bor{
+    margin-top: 0.13rem;
+    border: 1px solid #d3d3d3;
+    width:3.86rem;
+    height: 0.42rem;
+    border-radius: 0.22rem 0 0.22rem 0;
+    font-size: 0.20rem;
+    /* ================al不想写注释============== */
+    color: #aaaaaa;
+    text-align: center;
+    line-height: 0.44rem;
+    position: relative;
+}
+/* 副标题文字 */
+.case-title-bor p{
+    margin: auto;
+    width: 2rem;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+/* 边框上的线 */
+.case-title-line{
+    width: 1.19rem;
+    height: 3px;
+    background-color: #14916a;
+    position: absolute;
+    left: 1.35rem;
+    top: -2px;
+}
+/* 案例分享图片 */
+.case-box{
+    width: 7.1rem;
+    margin: auto;
+    margin-top: 0.3rem;
+}
+.case-pic img{
+    height: 4.8rem;
+    width: 100%;
+}
+/* ================al不想写注释============== */
+.case-box-pic{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* 图片遮罩层 */
+.case-pic{
+    position: relative;
+}
+/* ================al不想写注释============== */
+.case-pic::before{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 0.5rem solid #14916a;
+    border-left: 0.5rem solid transparent;
+    position: absolute;
+    right: 0px;
+    opacity: 0.5;
+}
+/* 文字 */
+.case-box-p{
+    color: white;
+    position: absolute;
+    font-size: 0.40rem;
+    top: 2.12rem;
+    left:2.31rem;
+    z-index: 10; 
+    width: 3.86rem;
+    display: none;
+    /* ================al不想写注释============== */
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+/* 遮罩 */
+.case-pic::after{
+    content: "";
+    display: block;
+    width: 6.38rem;
+    height: 4.07rem;
+    background-color: rgb(0, 0, 0,0.7);
+    position: absolute;
+    /* ================al不想写注释============== */
+    top: 0.41rem;
+    left: 0.33rem;
+    display: none;
+}
+/* 点击显示 */
+.case-pic:active .case-box-p{
+    display: block;
+}
+.case-pic:active::after{display: block;} 
+/* 图片宽 */
+.case-box .case-pic:nth-child(n+2){
+    margin-top: 0.15rem;
+}
+/* 翻页按钮 */
+.case-btn{
+    display: flex;
+    justify-content: space-between;
+}
+.case-btn button{
+    background-color: #14916a;
+    color: white;
+    width: 1.73rem;
+    height: 0.6rem;
+    font-size: 0.28rem;
+    border-radius: 0.27rem 0 0.27rem 0;
+    /* ================al不想写注释============== */
+    margin-top: 0.77rem;
+    margin-bottom: 0.68rem;
+    border: none;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+/* 按钮点击效果 */
+.case-btn button:active{
+    background-color: #149169d2;
+}

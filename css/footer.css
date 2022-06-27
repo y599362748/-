@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+/* *********************** */
+html{
+    font-size: 50px;
+}
+body{
+    font-size: 0.16rem;
+}
+/* *********************** */
+.overflow{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/* *********************** */
+.footer-top{
+    background-color: #F3F3F3;
+    padding-top: 0.46rem;
+}
+/* *********************** */
+.footer-logo{
+    padding: 0.03rem 2.83rem 0.18rem 2.74rem;
+    height: 0.56rem;
+    width: 1.92rem;
+    margin: 0 auto;
+}
+/* *********************** */
+.footer-logo-pic{
+    width: 1.92rem;
+    height: 0.56rem;
+}
+/* *********************** */
+.footer-number{
+    margin: 0 auto;
+    width: 4.47rem;
+    height: 0.68rem;
+    margin-bottom: 0.36rem;
+}
+/* *********************** */
+.border-top{
+    width: 4.47rem;
+    height: 0.17rem;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(98, 98, 98, .4);
+    border-left: 1px solid rgba(98, 98, 98, .4);
+    border-right: 1px solid rgba(98, 98, 98, .4);
+}
+/* *********************** */
+.border-bottom{
+    width: 4.47rem;
+    height: 0.2rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(98, 98, 98, .4);
+    border-left: 1px solid rgba(98, 98, 98, .4);
+    border-right: 1px solid rgba(98, 98, 98, .4);
+}
+/* *********************** */
+.footer-phone-number{
+    width: 3.89rem;
+    height: 0.32rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* *********************** */
+.footer-phone-number img{
+    width: 0.32rem;
+    height: 0.32rem;
+}
+.footer-phone-icon{
+    width: 0.32rem;
+    height: 0.32rem;
+}
+/* *********************** */
+.num{
+    font-size: 0.24rem;
+    color: #14916a;
+    width: 3.46rem;
+    height: 0.19rem;
+    margin-left: 0.11rem;
+    line-height: 0.18rem;
+}
+/* *********************** */
+/* *********************** */
+/* adress */
+.footer-adress{
+    width: 90%;
+}
+.footer-adress-ul{
+    margin-left: 0.22rem;
+    padding-bottom: 0.52rem;
+    box-sizing: border-box;
+}
+/* *********************** */
+/* *********************** */
+.footer-adress-li{
+    display: flex;
+    align-items: center;
+    margin-top: 0.17rem;
+}
+/* *********************** */
+.adress-icon{
+    background-image: url('../img/adress-sprite.png');
+    background-repeat: no-repeat;
+    height: 0.16rem;
+    width: 0.19rem;
+    background-size: 0.19rem;
+}
+/* *********************** */
+.adress-icon1{
+    background-position-y: 0rem;
+}
+.adress-icon2{
+    background-position-y: -0.47rem;
+}
+.adress-icon3{
+    background-position-y: -0.93rem;
+}
+/* *********************** */
+.adress-icon4{
+    background-position-y: -1.46rem;
+}
+.adress-context{
+    font-size: 0.24rem;
+    color: #555;
+    margin-left: 0.16rem;
+}
+/* *********************** */
+.adress-context1{
+    max-width: 3.12rem;
+}
+/*  */
+.quick-nav{
+    padding-top: 0.3rem;
+    background-color: #FCFCFC;
+    padding-bottom: 0.23rem;
+}
+/* *********************** */
+/* *********************** */
+/* *********************** */
+.quick-nav-title{
+    margin: 0rem auto 0.36rem;
+    width: 1.12rem;
+    font-size: 0.28rem;
+    color: black;
+}
+/* *********************** */
+.quick-nav-center{
+    padding-left: 0.8rem;
+    padding-right: 0.83rem;
+    width: 5.87rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+/* *********************** */
+.quick-nav-center div{
+    font-size: 0.24rem;
+    max-width: 1rem;
+}
+.quick-nav-center a{
+    color: #555;
+}
+/* *********************** */
+.quick-nav-center div:not(.quick-nav-center div:nth-child(2),.quick-nav-center div:nth-child(4)):active{
+    color: #14916a;
+    text-decoration: underline;
+}
+/* *********************** */
+.quick-logo{
+    margin: 0.43rem auto 0rem;
+    padding-left: 1.5rem;
+    padding-right: 1.39rem;
+    display: flex;
+    justify-content: center;
+}
+/* *********************** */
+.quick-logo img{
+    width: 4.61rem;
+    height: 0.64rem;
+}
+/* *********************** */
+/*  */
+.quick-entry{
+    background-color: #F3F3F3;
+    padding-top: 0.34rem;
+}
+/* *********************** */
+.quick-entry-title{
+    width: 1.12rem;
+    font-size: 0.28rem;
+    color: black;
+    margin: 0 auto 0.4rem;
+}
+/* *********************** */
+.quick-entry-sprite{
+    padding-left: 0.94rem;
+    padding-right: 0.83rem;
+    display: flex;
+    margin: 0 auto;
+    width: 5.73rem;
+    justify-content: space-between;
+}
+/* *********************** */
+.entry-icon{
+    height: 0.26rem;
+    width: 0.26rem;
+    background-image: url('../img/footer-sprite.png');
+    background-repeat: no-repeat;
+    background-size: 5.73rem;
+}
+/* *********************** */
+.entry-icon1{
+    background-position-x: 0rem;
+}
+.entry-icon2{
+    background-position-x: -1.09rem;
+}
+/* *********************** */
+.entry-icon3{
+    background-position-x: -2.18rem;
+}
+.entry-icon4{
+    background-position-x: -3.27rem;
+}
+/* *********************** */
+.entry-icon5{
+    background-position-x: -4.36rem;
+}
+.entry-icon6{
+    background-position-x: -5.45rem;
+}
+/* *********************** */
+.text-logo{
+    padding: 0.48rem 2.64rem 0.22rem 2.62rem;
+    font-size: 0.28rem;
+    color: #14916a;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    width: 2.24rem;
+    margin: 0 auto;
+}
+/* *********************** */
+.copyright{
+    padding: 0.22rem 0.24rem 0.27rem 0.22rem;
+    font-size: 0.24rem;
+    color: #555;
+    width: 7.04rem;
+    margin: 0 auto;
+}
+/* *********************** */
+a{
+    -webkit-tap-highlight-color: transparent;
+}
