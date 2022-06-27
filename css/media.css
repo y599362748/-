@@ -1,10 +1,16 @@
 /* 414 */
 @media screen and (min-width: 414px){ 
     html{ font-size: 55.2px; } 
+    .container-down .container-text > div:last-child{
+        width: 1.9rem;
+    }
 }
 /* 624 */
 @media screen and (min-width: 624px) {
     html{ font-size: 83.2px;}
+    .container-down .container-text > div:last-child{
+        width: 1.75rem;
+    }
 }
 /* 标准 */
 @media screen and (min-width: 750px) {
