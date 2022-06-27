@@ -238,12 +238,21 @@ body{
 }
 /* *********************** */
 .text-logo{
+<<<<<<< HEAD
     padding: 0.48rem 0 0.22rem 0;
     font-size: 0.28rem;
     color: #14916a;
     border-bottom: 1px solid rgba(0, 0, 0, .1);
     width: 100%;
     text-align: center;
+=======
+    padding: 0.48rem 0rem 0.22rem 0rem;
+    font-size: 0.28rem;
+    color: #14916a;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    text-align: center;
+    width: 100%;
+>>>>>>> a68940388a2008625a646aa47d55d1c1eae90216
     margin: 0 auto;
 }
 /* *********************** */
