@@ -238,11 +238,12 @@ body{
 }
 /* *********************** */
 .text-logo{
-    padding: 0.48rem 2.64rem 0.22rem 2.62rem;
+    padding: 0.48rem 0rem 0.22rem 0rem;
     font-size: 0.28rem;
     color: #14916a;
     border-bottom: 1px solid rgba(0, 0, 0, .1);
-    width: 2.24rem;
+    text-align: center;
+    width: 100%;
     margin: 0 auto;
 }
 /* *********************** */
