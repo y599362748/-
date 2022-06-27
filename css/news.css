@@ -136,7 +136,7 @@ body{
 /* 溢出隐藏 */
 .overhidden{
     white-space: nowrap;
-    max-width: 1.7rem;
+    width: 2.05rem;
     overflow: hidden;
 }
 /* 间隔 */

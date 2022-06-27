@@ -4,12 +4,26 @@
     .container-down .container-text > div:last-child{
         width: 1.9rem;
     }
+    .overhidden{
+        width: 1.85rem;
+    }
+    /* =========== */
+    .mcds-date{
+        width: 2.45rem;
+    }
 }
 /* 624 */
 @media screen and (min-width: 624px) {
     html{ font-size: 83.2px;}
     .container-down .container-text > div:last-child{
         width: 1.75rem;
+    }
+    .overhidden{
+        width: 1.7rem;
+    }
+    /* =========== */
+    .mcds-date{
+        width: 2.25rem;
     }
 }
 /* 标准 */
